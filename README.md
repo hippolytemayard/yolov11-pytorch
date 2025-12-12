@@ -1,6 +1,6 @@
 <div align="center">
 
-# YOLO v11 Open Source
+# PyTorch YOLO v11 Open Source
 
 > **🚧 Update (December 2025):** Open-source weights are coming soon! I'm currently training all models from scratch on COCO. Stay tuned for fully Apache 2.0 licensed weights.
 
