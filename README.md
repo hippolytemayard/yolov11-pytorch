@@ -54,8 +54,8 @@ A complete reimplementation of YOLOv11 in pure PyTorch for researchers and engin
 ## Installation
 
 ```bash
-git clone https://github.com/hipmusic/yolov11-open-source.git
-cd yolov11-open-source
+git clone https://github.com/hipmusic/yolov11-pytorch.git
+cd yolov11-pytorch
 
 # With UV (recommended)
 uv venv && source .venv/bin/activate
@@ -147,7 +147,7 @@ torchrun --nproc_per_node 4 scripts/train.py --model m --task segment --epochs 3
 ## Architecture
 
 ```
-yolov11-open-source/
+yolov11-pytorch/
 ├── yolo/
 │   ├── models/
 │   │   ├── backbone.py      # DarkNet
@@ -181,7 +181,7 @@ This project is licensed under **Apache License 2.0**. See [LICENSE](LICENSE).
   title = {YOLO v11 Open Source},
   author = {Mayard, Hippolyte},
   year = {2025},
-  url = {https://github.com/hipmusic/yolov11-open-source}
+  url = {https://github.com/hipmusic/yolov11-pytorch}
 }
 ```
 
